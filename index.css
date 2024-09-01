@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(./src/fonts/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(103, 178, 49);
+  font-family: "Roboto", arial, sans-serif;
+  color: rgb(37, 68, 16);
+}
+
+.divParant-1 {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 80px 0px;
+}
+
+
+.divParant-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divChild-1,
+.divChild-2,
+.divChild-3 {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.divParant-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.pChildScore {
+  color: #e1ff00;
+  background-color: rgb(77, 133, 37);
+  padding: 5px;
+  border: solid 2px rgb(48, 87, 20);
+  border-radius: 10px;
+}
+
+.divLogTime {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.pChildLogTime {
+  color: #e1ff00;
+  background-color: rgb(77, 133, 37);
+  padding: 5px 30px 5px 30px;
+  border: solid 2px rgb(48, 87, 20);
+  border-radius: 10px;
+}
+
+.divParant-4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.divAnswerComputeur,
+.divButton,
+.divAnswerHuman {
+  flex: 1;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 130px;
+}
+
+.btnRock,
+.btnPaper,
+.btnScissors {
+  font-size: 60px;
+  margin: 0 20px 0 20px;
+  background-color: rgb(77, 133, 37);
+  border: solid 2px rgb(48, 87, 20);
+  border-radius: 10px;
+}
+
+.btnRock:hover,
+.btnPaper:hover,
+.btnScissors:hover {
+  background-color: rgb(48, 87, 20);
+  border: solid 2px black;
+  transition: 0.3s;
+}
+
+.btnRock:active,
+.btnPaper:active,
+.btnScissors:active {
+  transform: scale(0.9);
+}
+
+.divParant-5 {
+  display: flex;
+  justify-content: center;
+}
+
+.btnPlay {
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(77, 133, 37);
+  border: solid 2px rgb(48, 87, 20);
+  border-radius: 10px;
+  font-weight: bold;
+  color: #cfe71b;
+}
+
+.btnPlay:hover {
+  background-color: rgb(48, 87, 20);
+  border: solid 2px black;
+  color: #e1ff00;
+  transition: 0.3s;
+}
+
+.btnPlay:active {
+  transform: scale(0.9);
+}
+
+.divParantCopyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 206px;
+  background-color: rgb(48, 87, 20);
+}
+
+.pChildCopyright {
+  background-color: rgb(48, 87, 20);
+  color: white;
+}
